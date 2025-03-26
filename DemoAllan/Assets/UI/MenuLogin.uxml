@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UIlogin.uss?fileID=7433441132597879392&amp;guid=1b1374b0267ee984ea5549397ca4f49b&amp;type=3#UIlogin" />
+    <engine:VisualElement name="Base" class="login" style="flex-grow: 1; font-size: 32px;">
+        <engine:VisualElement name="Titulo" class="titulo" style="flex-grow: 1;">
+            <engine:Label text="Login" name="Textot" class="textoTitulo" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Usuario" class="usuario" style="flex-grow: 1;">
+            <engine:TextField label="Usuario" placeholder-text="filler text" name="Tusuario" class="field" />
+            <engine:TextField label="Contraseña       " placeholder-text="filler text" name="Puntos" class="field" />
+            <engine:Button text="Enviar" name="Send" class="boton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

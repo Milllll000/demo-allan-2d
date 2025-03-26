@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuPausa.uss?fileID=7433441132597879392&amp;guid=718a155af68bb4c41b021a537d4ca7a7&amp;type=3#MenuPausa" />
+    <engine:VisualElement name="Base" style="flex-grow: 1;">
+        <engine:VisualElement name="Pausa" class="pausa" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.27);">
+            <engine:Label text="Pausa" name="PausaEtiqueta" class="pausa-etiqueta" />
+            <engine:Button text="Continuar" name="BotonContinuar" class="boton-pausa" />
+            <engine:Button text="Regresar al&#10;menú principal" name="BotonSalir" class="boton-pausa" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

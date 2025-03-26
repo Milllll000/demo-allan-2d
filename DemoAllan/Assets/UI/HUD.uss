@@ -1,0 +1,35 @@
+.vidas {
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    align-items: flex-start;
+    align-self: flex-start;
+    background-size: 100% 150px;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+}
+
+.vida {
+    width: 200px;
+    height: 200px;
+    background-image: url("project://database/Assets/Brackeys/2D%20Mega%20Pack/Items%20&%20Icons/Pixel%20Art/Heart.png?fileID=2800000&guid=222d62d87db5931498bb85845842b0d3&type=3#Heart");
+}
+
+.moneda {
+    background-image: url("project://database/Assets/Brackeys/2D%20Mega%20Pack/Items%20&%20Icons/Pixel%20Art/Coin.png?fileID=2800000&guid=d2c0dc76eca05bb4eb4f3fc4a37f258d&type=3#Coin");
+    font-size: 64px;
+}
+
+.monedas {
+}
+
+.hud {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.cantidad-monedas {
+}
