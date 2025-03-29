@@ -28,7 +28,7 @@ public class ConectarServidor : MonoBehaviour
 
         string horaJSON = JsonUtility.ToJson(prueba);
 
-        UnityWebRequest request = UnityWebRequest.Post("http://127.0.0.1", horaJSON, "application/JSON");
+        UnityWebRequest request = UnityWebRequest.Post("http://44.223.79.63:8080/", horaJSON, "application/JSON");
 
         yield return request.SendWebRequest();
 
